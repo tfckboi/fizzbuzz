@@ -1,0 +1,8 @@
+for pizza in range(101):
+	print(pizza)
+	if pizza%15 ==0 and pizza!=0:
+		print"fizzbuzz"
+	elif pizza%3==0 and pizza!=0:
+		print "fizz"
+	elif pizza%5==0 and pizza!=0:
+		print "buzz"
